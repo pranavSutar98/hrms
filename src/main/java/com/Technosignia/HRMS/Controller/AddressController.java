@@ -40,7 +40,7 @@ public class AddressController {
 		return addressService.editAddressById(id ,address);
 	}
 	
-	@DeleteMapping("/address")
+	@GetMapping("/kjhgfdkj,hgfgdsajkhgfdsjhgfdsjhgff")
 	public String deleteAddress(@RequestParam Long id)
 	{
 		return addressService.removeAddressById(id);
